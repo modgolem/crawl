@@ -1229,7 +1229,7 @@ int attack::player_apply_final_multipliers(int damage)
     
     // Hydra is too strong now.
     if (you.has_hydra_multi_attack())
-        damage = div_rand_round(damage, 2);
+        damage = div_rand_round(damage, 3);
 
     return damage;
 }
